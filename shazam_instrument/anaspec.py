@@ -3,7 +3,7 @@
 wx Matplotlib and NumPy have to be installed.
 
 """
-import queue
+import queue #
 import sys
 
 import numpy as np
