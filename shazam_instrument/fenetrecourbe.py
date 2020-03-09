@@ -1,3 +1,12 @@
+# Projet de POO : Shazam_Instrument
+# Hugo LE ROY, JUNAY Léa
+# 02/03/2020
+
+#1. Code utilisé avec le code Shazam_instrument.py
+#2. Affichage dune fenêtre pour tracer le graphique matplotlib
+#3. Tracé de la courbe 
+
+
 import time
 import queue
 import numpy as np

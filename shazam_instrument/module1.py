@@ -1,3 +1,9 @@
+# Projet de POO : Shazam_Instrument
+# Hugo LE ROY, JUNAY Léa
+# 02/03/2020
+
+#code pour faire une fenêtre et un bouton
+#pas utile pour l'instant
 import wx
 
 class MaFenetre(wx.Frame):    
