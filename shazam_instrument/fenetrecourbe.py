@@ -91,3 +91,4 @@ class PlotNotebook(wx.Panel):
             if self.nb.GetCurrentPage() == page:
                 page.draw_page()
                 page.canvas.draw()
+                
