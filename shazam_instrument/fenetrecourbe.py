@@ -56,7 +56,7 @@ class Plot(wx.Panel):
             self.fa.plotdata = np.roll(self.fa.plotdata, -shift, axis=0)
             self.fa.plotdata[-shift:, :] = data
         for column, line in enumerate(self.lines):
-            line.set_ydata((column+1) *self.fa.plotdata[:, column])
+            line.set_ydata((column+1) *self.fa.plotdata[:, 0])
         return self.lines
 
 

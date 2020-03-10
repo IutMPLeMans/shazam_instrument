@@ -13,6 +13,7 @@ wx Matplotlib and NumPy have to be installed.
 import queue
 import sys
 
+import soundfile as sf
 import numpy as np
 import sounddevice as sd
 import wx
@@ -55,7 +56,7 @@ def audio_callback(indata, _frames, _time, status):
     # Création d'un événement
     evt = new_event(attr1="audio_callback", attr2=0)
     # Envoi de l'événement à la fenêtre chargée du tracé
-    wx.PostEvent(fa.courbe, evt)
+    wx.PostEvent(fa.courbe, evt)                                     # trace le graph
 
 
 
@@ -74,5 +75,3 @@ Fe = device_info['default_samplerate']
 fa.open()
 
 application.MainLoop()
-
-
