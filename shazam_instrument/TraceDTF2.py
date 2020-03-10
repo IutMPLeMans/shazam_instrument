@@ -14,12 +14,13 @@ from matplotlib import pyplot as plt
 nom=[r"C:\Users\s177090\source\repos\IutMPLeMans\shazam_instrument\Base_de_donnees\Marimba\Marimba.yarn.ff.Db2.stereo.aif",
      r"C:\Users\s177090\Source\Repos\IutMPLeMans\shazam_instrument\Base_de_donnees\piano\Piano.pp.E1.aiff",
      r"C:\Users\s177090\Source\Repos\IutMPLeMans\shazam_instrument\Base_de_donnees\saxo\SopSax.vib.ff.Ab3.stereo.aif",
-     r"C:\Users\s177090\Source\Repos\IutMPLeMans\shazam_instrument\Base_de_donnees\Basson\Bassoon.pp.Bb1B1.aiff"]
+     r"C:\Users\s177090\Source\Repos\IutMPLeMans\shazam_instrument\Base_de_donnees\Basson\Bassoon.WAV"]                     #pour ajouter d'autre instruments, mettre une virgule avant crochet et placer le chemin d'acces avec "r" juste devant
 
 inst=["marimba",
       "piano",
       "saxo",
-      "basson"]
+      "basson"]             # pareil qu'avant, mais sans le "r"                             ENSUITE LAISSER LE PROG CREE UN FICHIER TOUT SEUL
+
 for n,inst in zip(nom,inst):
     
 
